@@ -1,0 +1,126 @@
+
+#slider {
+  position: absolute;
+  width: 40%;
+  left: 10%;
+  top: 100px;
+  cursor: zoom-in;
+}
+
+#slider img {
+  width: 100%;
+}
+
+#left {
+  position: absolute;
+  top: 50vh;
+  left: 6%;
+  background: white;
+  border: none;
+}
+
+#right {
+  position: absolute;
+  top: 50vh;
+  left: 50%;
+  background: white;
+  border: none;
+}
+
+/* Buttons */
+
+#B1 {
+  background-color: peru;
+  color: white;
+  border: none;
+}
+#B1:hover {
+  cursor: pointer;
+}
+
+#B2 {
+  border: 1px solid peru;
+  color: peru;
+  background-color: white;
+}
+
+.brand,
+.price {
+  color: peru;
+}
+
+.product {
+  color: lightslategray;
+  text-align: left;
+  width: 50%;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.foot {
+  margin-top: 130vh;
+}
+
+.details{
+    width: 35%;
+    gap: 10%;
+}
+
+ /* Details  */
+
+ .details {
+  width: 35%;
+  position: absolute;
+  left: 60%;
+  top: 100px;
+}
+
+.details > h1 {
+    margin: 0;
+}
+
+.details > h2 {
+    color: #dc9814;
+    margin: 2px;
+}
+
+.details > ul {
+    padding-left: 20px;
+}
+
+.details > ul > li {
+    padding: 3px;
+    color: darkslategray;
+}
+
+.details > input {
+    width: 70px;
+    height: 50px;
+    font-size: 2rem;
+    border: none;
+    margin-top: 10px;
+}
+
+.details button {
+    width: 300px;
+    height: 60px;
+    border: none;
+    color: white;
+    margin-bottom: 30px;
+    
+}
+
+#b-one {
+  background-color: #BB371A;
+}
+
+#b-two {
+  background-color: #dc9814;
+  margin-left: 80px;
+}
+
+.details > #b-one:hover {
+    background-color: #dc9814;
+}
+
+

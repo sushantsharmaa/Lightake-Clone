@@ -1,0 +1,310 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+
+#container-one{
+    height: 50px;
+    background-color: #201D48;
+    color: white;
+}
+
+#container-one > p {
+    font-weight: 600;
+    font-size: 0.83rem;
+    margin: 0 20px;
+    padding: 15px;
+    display: inline-block;
+}
+
+#container-one > select {
+    float: right;
+    margin: 5px 50px 0 0;
+    height: 33px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+#container-two {
+    height: 130px;
+    display: flex;
+}
+
+
+#container-two > div > img {
+    width: 140px;
+    padding: 40px;
+}
+
+#search-icon {
+    margin: 58px 0 0 5px;
+}
+
+#container-two > div > input {
+    border: none;
+    margin: 58px 0 0 5px;
+    font-size: 1rem;
+}
+
+#container-two > div > input:focus{
+    outline: none;
+}
+
+.links {
+     margin-right: 10px;
+     text-decoration: none;
+     color: #2C2E43;
+}
+
+#container-three {
+    height: 33px;
+    background-color: gold;
+    padding: 17px 0 15px 45px;
+   
+}
+
+#container-three > span {
+    font-weight: bolder;
+    padding-right: 15px; 
+    font-size: 1rem;  
+}
+
+#container-three > span:hover{
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+#total {
+    margin-left: 50px;
+}
+
+#container-four > img {
+    width: 100%;
+    margin-top: 3px;
+}
+
+#container-five {
+    position: relative;
+    text-align: left;
+    color: white;
+    display: flex;
+    gap: 25px;
+    margin-top: 10px;
+    margin-left: 20px;
+    overflow: hidden;
+}
+
+#container-five > div > #one > h2{
+  position: absolute;
+  top: 120px;
+  left: 30px;
+}
+
+#container-five > div > #one > button{
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    height: 40px;
+    width: 130px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: #BB371A;
+}
+
+#container-five > div > #two > h2 {
+    position: absolute;
+    top: 120px;
+    left: 450px 
+}
+
+#container-five > div > #two > button{
+    position: absolute;
+    top: 200px;
+    left: 450px;
+    height: 40px;
+    width: 130px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: #BB371A;
+}
+
+#container-five > div > #three > h2 {
+    position: absolute;
+    top: 120px;
+    left: 870px;
+}
+
+#container-five > div > #three > button{
+    position: absolute;
+    top: 200px;
+    left: 870px;
+    height: 40px;
+    width: 130px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: #BB371A;
+}
+
+.five-img {
+   width: 395px;
+   filter:brightness(0.55)
+}
+
+.five-img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+#container-six {
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+#container-six > img {
+    width: 99%;
+}
+
+#container-seven {
+    text-align: center;
+}
+
+#container-seven > h1 {
+    font-weight: 1000;
+}
+
+#container-eight {
+    display: grid;
+    grid-template-columns: repeat(4,24%);
+    grid-gap: 16px;
+    margin-left: 20px;
+}
+
+#container-eight > div > img {
+    width: 100%;
+}
+
+#container-eight > div > img:hover {
+    transform: scaleY(0.9);
+    transition: 1sec;
+}
+
+.cart-btn {
+    width: 100%;
+    height: 45px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    background-color: #BB371A;
+    visibility: hidden;
+}
+
+#container-eight:hover .c1 {
+    visibility: visible;
+}
+
+#container-nine {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#container-ten {
+    display: grid;
+    grid-template-columns: repeat(4, 24%);
+    grid-gap: 11px;
+    margin-left: 20px;
+}
+
+#container-ten > div > img {
+    width: 100%;
+    height: 200px;
+}
+
+#container-eleven {
+    text-align: center;
+}
+
+#container-twelve > img{
+    width: 100%;
+}
+
+#container-thirteen{
+    display: flex;
+    gap: 95px;
+    margin-left: 50px;
+}
+
+#container-thirteen > div > p{
+  margin: 0;
+}
+
+.bold-p{
+   font-size: 1rem;
+}
+
+.normal-p {
+    font-size: 0.9rem;
+    color: grey;
+}
+
+#footer {
+    margin-top: 30px;
+    color: white;
+    background-color: #201D48;
+    display: flex;
+    gap: 185px;
+    padding: 60px 40px 60px 50px;
+}
+
+
+#footer > div > p {
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 1rem;
+    color: lightgray;
+}
+
+#footer > div > p:hover {
+    border-bottom: 1px solid lightgray;
+}
+
+#footer > div > input {
+    width: 150px;
+    height: 35px;
+    border: none;
+    border-radius: 3px;
+}
+
+#footer > div > input:focus {
+    outline: none;
+}
+
+#footer > div > button {
+    margin-top: 20px;
+    width: 100px;
+    height: 43px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: #BB371A;
+}
+
+#final {
+   background-color: #201D48; 
+   padding-bottom: 40px;
+}
+
+#final > p{
+    display: inline;
+    color: white;
+    padding-left: 50px;  
+}
+
+#final > img {
+    width: 250px;
+    float: right;
+    padding-right: 50px;
+}

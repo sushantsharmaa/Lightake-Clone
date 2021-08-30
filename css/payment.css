@@ -1,0 +1,225 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+
+#one > img {
+    width: 140px;
+    padding: 30px;
+    padding-bottom: 0;
+}
+
+#one > h3 {
+    float: right;
+    padding: 30px;
+    padding-bottom: 0;
+}
+
+#two > img {
+    width: 100%;
+}
+
+/* Billing */
+
+#payment {
+    display: flex;
+    width: 92%;
+    margin:auto;
+    gap: 6%;
+}
+
+#billing-details{
+    width: 52%;
+}
+
+.name-input {
+    width: 284px;
+    height: 30px;
+    border: 1px solid #C8C6C6;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.select{
+    width: 595px;
+    height: 25px;
+    border: 1px solid #C8C6C6;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.address {
+    width: 595px;
+    height: 30px;
+    border: 1px solid #C8C6C6;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.order-notes {
+    width: 595px;
+    height: 150px;
+    border: 1px solid #C8C6C6;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-size: 1.5rem;
+}
+
+/* Your Order */
+
+#your-order{
+    width: 45%;
+}
+
+#your-order > h1 {
+    margin-bottom: 5px;
+}
+
+#your-order > h3 {
+   color: #334756;
+   margin: 0;
+}
+
+#your-order > div  button {
+    height: 45px;
+    padding: 0 25px;
+    font-size: 1rem;
+    color: #2C394B;
+    border: none;
+    background-color: #BB371A;
+}
+
+#your-order > div  button:hover {
+    background-color: #dc9814;
+    cursor: pointer;
+}
+
+#sec-two{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#sec-two > img {
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+}
+
+#sec-two > p {
+    width: 45%;
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+#sec-two > h4{
+   float: right;
+   margin: 0;
+   margin-left: 100px;
+}
+
+#sec-three {
+    border-bottom: 1px solid lightgray;
+}
+
+#sec-three > p{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#sec-three > h4{
+    float: right;
+    margin-top: 15px;
+    margin-right: 40px;
+}
+
+#sec-four {
+    border-bottom: 1px solid lightgray;
+}
+
+#sec-four > p{
+    margin-left: 20px;
+}
+
+#sec-five{
+   border-bottom: 1px solid lightgray; 
+   display: flex;
+}
+
+#sec-five > h4 {
+    margin-left: 20px;
+}
+
+#sec-five > h3 {
+   margin-left: 295px;
+   font-size: 1.05rem;
+}
+
+#sec-six {
+    border-bottom: 1px solid lightgray; 
+}
+
+#a {
+    display: flex;
+    margin-left: 20px; 
+}
+
+#a > p {
+   margin-right: 180px;
+}
+
+#a > img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+#b > input {
+    width: 70px;
+    border: none;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+#b > input:focus {
+    outline: none;
+}
+
+#sec-seven {
+    margin-top: 20px;
+}
+
+#sec-seven > p{
+   font-size: 0.8rem;
+}
+
+#lst-btn{
+    color: white !important;
+    width: 100%;
+    height: 60px !important;
+    border-radius: 5px;
+}
+
+#lst-img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#sec-eight{
+    margin-left: 50px;
+    display: flex;
+}
+
+#sec-eight > p {
+    margin-right: 20px;
+}
+
+#sec-eight > p:hover {
+    cursor: pointer;
+    border-bottom: 1px solid lightgray;
+}
+
